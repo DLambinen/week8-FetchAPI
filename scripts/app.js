@@ -9,7 +9,7 @@ const movieOverview = document.querySelector('.movie-info-overview');
 
 window.onload = () => {
 
-    let url = 'https://api.themoviedb.org/3/movie/76492?api_key=4ca94f8b470d7e34bd3f59c3914295c8';
+    let url = 'https://api.themoviedb.org/3/movie/76492?api_key=db428011a9f0984740b0d7c5974d2962';
 
     fetch(url)
     .then(response => {
